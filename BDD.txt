@@ -1,0 +1,58 @@
+1. Cenário: Validar texto do campo de pesquisa Objeto 
+Dado que estou na página home https://www.pcpdev.com.br/
+E acesso o campo de pesquisa do objeto
+Então: visualizo o campo Objeto com o texto "Objeto:"
+
+2. Cenário: Validar inserção de texto no campo de pesquisa Objeto 
+Dado que estou na página home https://www.pcpdev.com.br/
+E digito a informação "Processo" no campo Objeto
+Então: visualizo no campo a informação "Processo" digitada
+
+3. Cenário: Validar pesquisa de processo através do campo de pesquisa Objeto 
+Dado que estou na página home https://www.pcpdev.com.br/
+E digito a informação "Processo" no campo Objeto
+E clico em "BUSCAR"
+Então: O sistema retorna a pesquisa do processo.
+
+4. Cenário: Validar texto do campo de pesquisa Processo 
+Dado que estou na página home https://www.pcpdev.com.br/
+E acesso o campo de pesquisa do processo
+Então: visualizo o campo Processo com o texto "Processo:"
+
+5. Cenário: Validar inserção de texto no campo de pesquisa Processo 
+Dado que estou na página home https://www.pcpdev.com.br/
+E digito a informação "20251111223" no campo Processo
+Então: visualizo no campo a informação "20251111223" digitada
+
+6. Cenário: Validar pesquisa de processo através do campo de pesquisa Processo 
+Dado que estou na página home https://www.pcpdev.com.br/
+E digito a informação "20251111223" no campo Objeto
+E clico em "BUSCAR"
+Então: O sistema retorna a pesquisa do processo.
+
+
+7. Cenário: Validar texto do campo de pesquisa Órgão 
+Dado que estou na página home https://www.pcpdev.com.br/
+E acesso o campo de pesquisa do Órgão
+Então: visualizo o campo Órgão com o texto "Órgão:"
+
+8. Cenário: Validar inserção de texto no campo de pesquisa Órgão 
+Dado que estou na página home https://www.pcpdev.com.br/
+E digito a informação "PUBLICO" no campo Órgão
+Então: visualizo no campo a informação "PUBLICO" digitada
+
+9. Cenário: Validar pesquisa de processo através do campo de pesquisa Órgão 
+Dado que estou na página home https://www.pcpdev.com.br/
+E digito a informação "PUBLICO" no campo Órgão
+E clico em "BUSCAR"
+Então: O sistema retorna a pesquisa do processo.
+
+10. Cenário: Validar presença do atalho para os campos da pesquisa avançada
+Dado que estou na página home https://www.pcpdev.com.br/
+E clico em Busca Avançada
+Então: O sistema retorna os campos Status, Modalidade, Realização, Julgamento, Período, UF e Município
+
+11. Cenário: Validar presença do atalho para os campos da pesquisa avançada
+Dado que estou na página home https://www.pcpdev.com.br/
+E clico em Busca Avançada
+Então: O sistema retorna os campos Status, Modalidade, Realização, Julgamento, Período, UF e Município

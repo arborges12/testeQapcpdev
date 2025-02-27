@@ -1,0 +1,3 @@
+1. Os scripts foram realizados no Cypress em JavaScript
+2. Em anexo está a pasta completa do projeto cypress já incluindo toda a instalação do framework
+3. Também está em anexo um vídeo demonstrando a execução dos testes,
